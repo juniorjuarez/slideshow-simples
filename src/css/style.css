@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background: rgb(4, 21, 36);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+
+}
+
+
+.slide{
+	width: 1024;
+	height: 576px;
+	overflow: hidden;
+	border-radius:15px;
+	transition: 0.4s;
+
+}
+
+.slides{
+	width: 5120px;
+	display: flex;
+}
+
+.image img{
+	width: 1024px;
+	height: 576px;
+
+}
+
+#atual{
+	margin-left: 0;
+	transition: all 2s;
+}
+
+.btn{
+	position: absolute;
+	color: white;
+	cursor: pointer;
+	transition: all 0.4s;
+	font-size: 30px;
+	
+
+}
+
+.btn:hover{
+	transform: scale(1.5);
+}
+
+
+#before{
+	left: 10%;
+	top: 50%;
+
+}
+
+#next{
+	right: 10%;
+	top: 50%;
+}
+
+
+.balls{
+	position: absolute;
+	width: 1024px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.balls div{
+	display: flex;
+	align-items: center;
+	transition: all 0.5s;
+	border: 3px solid white;
+	border-radius: 50%;
+	padding: 6px;
+	cursor: pointer;
+	margin-right: 15px;
+
+
+}
+
+.balls div:hover{
+	background: white;
+}
+
+
+.imgAtual{
+	background: white;
+	transition: all 0.5s;
+	
+	
+}
+
+
+
+/*.slide #next{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slide #before{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.slides img{
+	width: 500px;
+}*/
